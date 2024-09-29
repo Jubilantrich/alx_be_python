@@ -12,12 +12,12 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            itermname = input("Enter your itermname: ")
+            itermname = input("Enter your itermn to add: ")
             shopping_list.append(itermname)
             pass
         elif choice == '2':
             # Prompt for and remove an item
-            itermname = input("Enter your itermname: ")
+            itermname = input("Enter your iterm to remove: ")
             if itermname in shopping_list:
                 shopping_list.remove(itermname)
             else: print("Item can not be found in the list")
