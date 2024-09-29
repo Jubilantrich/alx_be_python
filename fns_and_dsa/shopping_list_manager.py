@@ -9,12 +9,13 @@ def main():
     shopping_list = []
     while True:
         display_menu()
+
         choice = int(input("Enter your choice: "))
 
         if choice == '1':
             # Prompt for and add an item
 
-            itermname = input ("Enter the item to add: ")
+            itermname = int(input ("Enter the item to add: "))
 
             shopping_list.append(itermname)
             
