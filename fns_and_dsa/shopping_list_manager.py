@@ -9,16 +9,20 @@ def main():
     shopping_list = []
     while True:
         display_menu()
-        choice = input("Enter your choice: ")
+        choice = int(input("Enter your choice: "))
 
         if choice == '1':
             # Prompt for and add an item
+
             itermname = input ("Enter the item to add: ")
+
             shopping_list.append(itermname)
             
         elif choice == '2':
             # Prompt for and remove an item
+
             itermname = input("Enter the item to remove: ")
+
             if itermname in shopping_list:
                 shopping_list.remove(itermname)
             else: print("Item can not be found in the list")
