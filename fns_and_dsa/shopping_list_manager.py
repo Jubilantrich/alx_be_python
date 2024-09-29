@@ -12,14 +12,14 @@ def main():
 
         choice = int(input("Enter your choice: "))
 
-        if choice == '1':
+        if choice == 1:
             # Prompt for and add an item
 
-            itermname = input ('Enter the item to add: ')
+            itermname = input ("Enter the item to add: ")
 
             shopping_list.append(itermname)
             
-        elif choice == '2':
+        elif choice == 2:
             # Prompt for and remove an item
 
             itermname = input("Enter the item to remove: ")
@@ -29,11 +29,11 @@ def main():
             else: print("Item can not be found in the list")
 
             
-        elif choice == '3':
+        elif choice == 3:
             # Display the shopping list
             print(shopping_list) 
             
-        elif choice == '4':
+        elif choice == 4:
             print("Goodbye!")
             break
         else:
