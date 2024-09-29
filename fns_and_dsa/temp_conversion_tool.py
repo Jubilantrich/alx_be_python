@@ -19,6 +19,6 @@ if Celsius_or_Fahrenheit =="F":
 elif Celsius_or_Fahrenheit =="C":
      print(Celsius_or_Fahrenheit_Value,"oC is",convert_to_fahrenheit(Celsius_or_Fahrenheit_Value),"oF")
 else :
-     print("We didnt understand your respond.")
+     print("Invalid temperature. Please enter a numeric value.")
 
 
