@@ -1,7 +1,8 @@
 # bank_account.py
 
 class BankAccount:
-    def __init__(self, initial_balance=0.0):
+    initial_balance=0.0
+    def __init__(self, initial_balance):
         self._account_balance = initial_balance  # Encapsulation of account balance
 
     def deposit(self, amount):
