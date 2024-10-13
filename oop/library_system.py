@@ -21,6 +21,11 @@ class Library:
         self.books.append(book)
     
     def list_books(self):
+
+        def __str__():
+            pass
+
+
         for book in self.books:
             if isinstance(book, EBook):
                 print(f"EBook: {book.title} by {book.author}, File Size: {book.file_size}KB")
