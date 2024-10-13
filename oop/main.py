@@ -1,8 +1,8 @@
 
-from book_class import book
+from book_class import Book
 
 def main():
-    the_book = book("1994","George orwell",1949)
+    the_book = Book("1994","George orwell",1949)
 
     #demotrating the __str__ method
     print(the_book) # expected to use __str__
