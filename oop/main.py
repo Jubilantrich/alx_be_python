@@ -2,7 +2,7 @@
 from book_class import Book
 
 def main():
-    the_book = Book("1994","George Orwell",1949)
+    the_book = Book("1984","George Orwell",1949)
 
     #demotrating the __str__ method
     print(the_book) # expected to use __str__
