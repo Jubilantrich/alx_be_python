@@ -9,3 +9,16 @@ mydb = mysql.connector.connect(
 )
 
 print(mydb.get_server_info())
+
+mycursor = mydb.cursor()
+# Execute SQL statements using the execute() method on the cursor
+
+mycursor.execute("SELECT * FROM user2")
+myresult = mycursor.fetchall()
+
+for row in myresult:
+  print(row)
+
+# Close connection to the databasse  
+mycursor.close()
+mydb.close()
